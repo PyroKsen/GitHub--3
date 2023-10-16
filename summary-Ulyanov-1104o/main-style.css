@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: local(fonts/Montserrat-Regular);
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: local(fonts/Roboto-Regular);
+}
+@font-face {
+    font-family: "RobotoMono-Regular";
+    src: local(fonts/RobotoMono-Regular);
+}
+@font-face {
+    font-family: "SFMono-Regular";
+    src: local(fonts/SFMono-Regular);
+}
+
+
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background: linear-gradient(-45deg, #0B0974 0%, #6E0069 40%, #A69800 90%);
+}
+
+header {
+    font-family: Roboto-Regular;
+    font-size: 0.8em;
+}
+
+h1 {
+    font-family: Montserrat-Regular;
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+h2 {
+    font-family: Montserrat-Regular;
+    font-size: 1em;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.obertka {
+    height: 1180px;
+    width: 1640px;
+}
+
+.obb {
+    font-size: 1em;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 4px;
+    height: 580px;
+    width: 530px;
+    border: black solid 2px;
+    border-radius: 24px;
+    background: linear-gradient(45deg, #CCF600 0%, #DC0055 40%, #5C0DAC 90%);
+}
+
+.decoration {
+    text-decoration: none;
+    color: black;
+}
+
+.decoration:hover {
+    color:white
+}
+
+.image {
+    height: 120px;
+    width: 120px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.obb:hover {
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 2);
+}
+
+.date {
+    text-align: right;
+    font-size: 0.7em;
+}
+
+.footerd {
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: local(fonts/Montserrat-Regular);
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: local(fonts/Roboto-Regular);
+}
+@font-face {
+    font-family: "RobotoMono-Regular";
+    src: local(fonts/RobotoMono-Regular);
+}
+@font-face {
+    font-family: "SFMono-Regular";
+    src: local(fonts/SFMono-Regular);
+}
+
+.date {
+    text-align: right;
+    font-size: 0.7em;
+}
+
+.footerd {
+    text-align: center;
+}
+.decoration {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    text-align: center;
+}
+
+body {
+    font-family: Roboto-Regular;
+    font-size: 18px;
+}
