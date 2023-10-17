@@ -1,18 +1,18 @@
 @font-face {
     font-family: "Montserrat-Regular";
-    src: local(fonts/Montserrat-Regular);
+    src: url(/fonts/Montserrat-Regular.ttf);
 }
 @font-face {
     font-family: "Roboto-Regular";
-    src: local(fonts/Roboto-Regular);
+    src: url(/fonts/Roboto-Regular.ttf);
 }
 @font-face {
     font-family: "RobotoMono-Regular";
-    src: local(fonts/RobotoMono-Regular);
+    src: url(/fonts/RobotoMono-Regular.ttf);
 }
 @font-face {
     font-family: "SFMono-Regular";
-    src: local(fonts/SFMono-Regular);
+    src: url(/fonts/SFMono-Regular.otf);
 }
 
 

@@ -1,18 +1,18 @@
 @font-face {
     font-family: "Montserrat-Regular";
-    src: local(fonts/Montserrat-Regular);
+    src: url(/fonts/Montserrat-Regular.ttf);
 }
 @font-face {
     font-family: "Roboto-Regular";
-    src: local(fonts/Roboto-Regular);
+    src: url(/fonts/Roboto-Regular.ttf);
 }
 @font-face {
     font-family: "RobotoMono-Regular";
-    src: local(fonts/RobotoMono-Regular);
+    src: url(/fonts/RobotoMono-Regular.ttf);
 }
 @font-face {
     font-family: "SFMono-Regular";
-    src: local(fonts/SFMono-Regular);
+    src: url(/fonts/SFMono-Regular.otf);
 }
 
 .date {
@@ -35,4 +35,41 @@
 body {
     font-family: Roboto-Regular;
     font-size: 18px;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.7;
+    margin: 0;
+    margin-bottom: 16px;
+    color: white;
+    background-color: rgb(26, 25, 25);
+}
+
+.code {
+    background-color: #6d757d;
+    padding: 4px;
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: SFMono-Regular;
+    font-size: 0.85em;
+}
+
+.command {
+    color: #c7d4e0;
+}
+
+.arg {
+    color: #01bdbd;
+}
+
+.decoration:hover {
+    color:white
+}
+
+.dd1 {
+    list-style-type: none;
+}
+
+.dd1:before {
+    content: counter(item) '.1 ';
+    counter-increment: item;
 }
